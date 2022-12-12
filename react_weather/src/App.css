@@ -1,0 +1,28 @@
+.App .bold {
+  font-weight: bold;
+}
+.App .search {
+  text-align: center;
+  padding: 0.7rem;
+}
+.App input {
+  padding: 0.7rem 1.5rem;
+  font-size: 0.8rem;
+  border-radius: 25px;
+  border: 1px solid azure;
+  background: rgba(255, 255, 255, 0.1);
+  color: azure;
+}
+::placeholder {
+  color: azure;
+}
+@media (max-width: 500px) {
+  .App .bottom {
+    padding: 0.8rem;
+    font-size: 0.4rem;
+    border-radius: 14px;
+    background-color: rgba(93, 61, 61, 0.306);
+    cursor: pointer;
+    background-image: url("./images/pexels-luis-del-río-15286.jpg");
+  }
+}
